@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "checkJs": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2017"
+    ],
+    "strictNullChecks": true,
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
